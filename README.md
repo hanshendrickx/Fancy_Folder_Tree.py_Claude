@@ -2,6 +2,55 @@
 # Folder_Tree_Claude by Hans Hendrickx MD PhD
 Create Folder Tree of variable depth in variable media formats. using py.
 
+# Place this code on your Computer
+# Method 1: Quick download and use
+curl -O https://raw.githubusercontent.com/hanshendrickx/Folder_Tree_Claude/main/Folder_Tree.py
+python Folder_Tree.py . --style artisanal --icons artisanal
+
+# Generate beautiful folder tree
+python Folder_Tree.py . --style artisanal --icons artisanal
+
+# Limit files per folder (perfect for documentation)
+python Folder_Tree.py . --style artisanal --icons artisanal --max-files 5
+
+# Generate multiple formats
+python Folder_Tree.py . -o my_project.txt --style artisanal --icons artisanal
+python Folder_Tree.py . -o my_project.png --style artisanal --icons artisanal  
+python Folder_Tree.py . -o my_project.pdf --style artisanal --icons artisanal
+
+# Different depths
+python Folder_Tree.py . --style artisanal --icons artisanal --depth 5
+Your Professional Folder Tree Generator is now:
+
+✅ Available on GitHub
+✅ Easy to download and use
+✅ Works with a single command
+✅ Professional and clean repository
+✅ Ready for users worldwide
+
+Great work getting everything set up and tested! The tool is production-ready. 🌟
+
+
+
+##!/usr/bin/env python3, install python 3., I used 3.12 for development
+### 1. Option A: Clone the entire repository
+git clone https://github.com/hanshendrickx/Folder_Tree_Claude.git
+cd Folder_Tree_Claude
+pip install -r requirements.txt
+python Folder_Tree.py . --style artisanal --icons artisanal
+
+### 2. What does #!/usr/bin/env python3 do?
+This line is called a "shebang" - it tells Unix/Linux/Mac systems which interpreter to use:
+
+On Windows: This line is ignored (does nothing)
+On Linux/Mac: Allows you to run the script directly: ./Folder_Tree.py instead of python Folder_Tree.py
+
+### Folder_Tree.py (the one that's working)
+It's a standard practice in Python scripts but not required - your script works fine with or without it.
+
+
+"""
+Professional Folder Tree Generator
 A powerful, professional-grade Python tool for generating beautiful folder structure visualizations. Perfect for documentation, code reviews, project planning, and sharing directory structures with teams and clients.
 
 ![Python Version](https://img.shields.io/badge/python-3.7+-blue.svg)
