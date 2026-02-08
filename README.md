@@ -4,16 +4,22 @@ markdown#
 #🌳 Professional Fancy Folder Tree Generator
 ##   Quick Route: Create C:\Users\%username%\tools\ 
 
+cmd
 mkdir tools & cd tools
 curl -o Folder_Tree.py https://raw.githubusercontent.com/hanshendrickx/Folder_Tree_Claude/main/Folder_Tree.py
 pip install Pillow reportlab
+
+## Use these codes in current directory you want to folder_tree!
 python Folder_Tree.py . --style artisanal --icons artisanal
+python Folder_Tree.py . -o structure.txt --style artisanal --icons artisanal
+python Folder_Tree.py . --style artisanal --icons artisanal --max-files 5
 
 Create beautiful folder structure visualizations with emoji icons!
 
 ## ✨ What It Does
 
-Generates visual folder trees with beautiful emoji icons:
+Generates visual folder trees with beautiful emoji icons. Move to your main folder:
+
 ```
 📂 Django52-v1/
 ├─ 📁 dr/
