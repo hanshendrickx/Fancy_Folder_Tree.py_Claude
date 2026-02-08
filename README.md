@@ -1,7 +1,7 @@
 # Easy to follow:
 markdown# 
 
-#🌳 Professional Folder Tree Generator
+#🌳 Professional Fancy Folder Tree Generator
 ##   Quick Route: Create C:\Users\%username%\tools\ 
 
 mkdir tools & cd tools
