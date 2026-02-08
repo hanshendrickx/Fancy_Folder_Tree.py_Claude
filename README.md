@@ -1,9 +1,13 @@
-Easy to follow:
-DoneHere's a clean, simple README for your repository. Just copy this entire text and replace your current README.md:
+# Easy to follow:
 markdown# 
 
 #🌳 Professional Folder Tree Generator
-##   Quick Route
+##   Quick Route: Create C:\Users\%username%\tools\ 
+
+mkdir tools & cd tools
+curl -o Folder_Tree.py https://raw.githubusercontent.com/hanshendrickx/Folder_Tree_Claude/main/Folder_Tree.py
+pip install Pillow reportlab
+python Folder_Tree.py . --style artisanal --icons artisanal
 
 Create beautiful folder structure visualizations with emoji icons!
 
