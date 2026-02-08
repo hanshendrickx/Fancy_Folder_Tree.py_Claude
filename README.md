@@ -1,5 +1,5 @@
 # 🌳 Professional Folder Tree Generator
-# Folder_Tree_Claude
+# Folder_Tree_Claude by Hans Hendrickx MD PhD
 Create Folder Tree of variable depth in variable media formats. using py.
 
 A powerful, professional-grade Python tool for generating beautiful folder structure visualizations. Perfect for documentation, code reviews, project planning, and sharing directory structures with teams and clients.
